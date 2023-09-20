@@ -1,0 +1,23 @@
+{
+  "name": "notificationcenter",
+  "version": "1.0.0",
+  "description": "NotificationCenter é uma biblioteca que simplifica o processo de comunicação com as APIs do Notifications Center. Esta biblioteca fornece funcionalidades para autenticação, autorização e envio de notificações de maneira eficiente.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts"
+  },
+  "author": "Anastácio Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cookie": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.2",
+    "@types/node": "^20.6.3",
+    "dotenv": "^16.3.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
